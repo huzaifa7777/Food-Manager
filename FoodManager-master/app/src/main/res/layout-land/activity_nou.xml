@@ -1,0 +1,254 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    tools:context=".nou">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:id="@+id/tablea">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="15sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Product_Name"
+                    android:id="@+id/textView"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/textView">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="47sp"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="name"
+                            android:id="@+id/textView2" />
+
+                        <EditText
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/foodName"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:gravity="top|center_horizontal"
+                            android:hint="SOAP" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="brand"
+                            android:layout_weight="1"
+                            android:id="@+id/textView3" />
+
+                        <EditText
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/foodBrand"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:gravity="top|center_horizontal"
+                            android:hint="brand_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="47dp">
+
+                        <TextView
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="portion(g)"
+                            android:layout_weight="1"
+                            android:id="@+id/textView5" />
+
+                        <EditText
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/foodPortion"
+                            android:inputType="number"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:gravity="top|center_horizontal"
+                            android:hint="@string/hint_portion" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp">
+
+                        <TextView
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="calories"
+                            android:layout_weight="1"
+                            android:id="@+id/textView7" />
+
+                        <EditText
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/foodKcal"
+                            android:inputType="number"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:gravity="top|center_horizontal"
+                            android:hint="@string/hint_calories" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp">
+
+                        <TextView
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="carbohydrates"
+                            android:layout_weight="1"
+                            android:id="@+id/textView9" />
+
+                        <EditText
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/foodCarbo"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:inputType="number"
+                            android:gravity="top|center_horizontal"
+                            android:hint="@string/hint_carbohydrates" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp">
+
+                        <TextView
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="fat"
+                            android:layout_weight="1"
+                            android:id="@+id/textView11" />
+
+                        <EditText
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/foodFat"
+                            android:layout_weight="1"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:gravity="top|center_horizontal"
+                            android:hint="@string/fat_hint" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp">
+
+                        <TextView
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="protein"
+                            android:layout_weight="1"
+                            android:id="@+id/textView12" />
+
+                        <EditText
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/foodProtein"
+                            android:layout_weight="1"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:gravity="top|center_horizontal"
+                            android:hint="@string/protein_hint" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@android:color/transparent"
+                            android:text="cancel"
+                            android:textColor="#ff6f00"
+                            android:clickable="true"
+                            android:id="@+id/cancelButton"
+                            android:layout_gravity="left|bottom"
+                            style="?android:attr/borderlessButtonStyle"/>
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@android:color/transparent"
+                            android:text="add"
+                            android:textColor="#ff6f00"
+                            android:clickable="true"
+                            android:id="@+id/saveButton"
+                            android:layout_gravity="bottom|right"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:singleLine="false" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </TableLayout>
+</ScrollView>

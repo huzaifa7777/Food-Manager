@@ -1,0 +1,56 @@
+<resources>
+    <!--Global-->
+    <string name="app_name">Food Manager</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main activity (app) -->
+    <string name="total">Total</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="afegir">Add</string>
+    <string name="lunch">Lunch</string>
+    <string name="snack">Snack</string>
+    <string name="dinner">Dinnar</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="title_activity_nou">New product</string>
+    <string name="title_activity_llistaproductes">List of products</string>
+    <string name="title_activity_quantity">Amount</string>
+    <string name="title_activity_informacio_aliment">Food information</string>
+
+
+    <!-- PortionActivity activity -->
+    <string name="portionTitleText">Enter quantity</string>
+    <string name="portionSaveButtonText">Save</string>
+    <string name="portionCancelButtonText">Cancel</string>
+    <string name="nom_aliment_infoMeal">Name food</string>
+    <string name="portion_infoMeal">Portion of</string>
+    <string name="measure">grams</string>
+    <string name="brand">Mark</string>
+    <string name="nutritional_info">Nutrition facts</string>
+    <string name="calories">Calories</string>
+    <string name="carbohydrates">Carbohydrates</string>
+    <string name="proteins">Proteines</string>
+    <string name="fat">fat</string>
+    <string name="cancel">Cancel</string>
+    <string name="adding">Add</string>
+    <string name="meal">meal</string>
+    <string name="fat_activity">fat</string>
+    <string name="carbohydrates_activity">Carbohid.</string>
+    <string name="protein_activity">Proteines</string>
+    <string name="calories_activity">Calories</string>
+    <string name="protein_hint">1</string>
+    <string name="fat_hint">2</string>
+    <string name="product_name">Product</string>
+    <string name="name_new">First name</string>
+    <string name="hint_name">Ex: Sope</string>
+    <string name="hint_brand">Mercadona</string>
+    <string name="portion_new">Serving (g)</string>
+    <string name="hint_portion">100</string>
+    <string name="hint_calories">34</string>
+    <string name="hint_carbohydrates">10</string>
+    <string name="all_meals">All Meals</string>
+    <string name="protein_noLandscape">Protein</string>
+    <string name="calories_noLandscape">Calor.</string>
+</resources>

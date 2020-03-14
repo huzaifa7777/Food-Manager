@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">#ff6f00</item>
+        <item name="colorPrimary">#ffc107</item>
+        <item name="colorAccent">#6200ea</item>
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+
+</resources>

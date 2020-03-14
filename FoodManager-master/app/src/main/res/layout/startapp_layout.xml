@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    tools:context="com.example.health.manager.app.StartApp">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:id="@+id/tableStartup">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="All_meals"
+            android:id="@+id/meals"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fat"
+                android:id="@+id/fatness"
+                android:textSize="15sp"
+                android:layout_marginLeft="65sp"
+                android:minWidth="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="carbohydrates"
+                android:id="@+id/carboness"
+                android:textSize="15sp"
+                android:minWidth="100sp"
+                android:nestedScrollingEnabled="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="protein"
+                android:id="@+id/proteinness"
+                android:textSize="15sp"
+                android:minWidth="55sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="calories"
+                android:id="@+id/calories"
+                android:textSize="15sp"
+                android:minWidth="45sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:id="@+id/total"
+                android:textSize="15sp"
+                android:minWidth="70sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalFat"
+                android:textSize="14sp"
+                android:minWidth="50sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalCarbohydrates"
+                android:textSize="14sp"
+                android:minWidth="90sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalProtein"
+                android:textSize="14sp"
+                android:minWidth="70sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalKCal"
+                android:textSize="14sp"
+                android:minWidth="75sp" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10sp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/breakfastImgButton"
+                    android:src="@drawable/breakfast"
+                    android:maxHeight="150sp"
+                    android:maxWidth="150sp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/lunchImgButton"
+                    android:src="@drawable/lunch"
+                    android:maxHeight="150sp"
+                    android:maxWidth="150sp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Breakfast"
+                    android:gravity="center"
+                    android:id="@+id/esmorzarStartApp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lunch"
+                    android:gravity="center"
+                    android:id="@+id/dinarStartApp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15sp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/snackImgButton"
+                    android:src="@drawable/berenar"
+                    android:maxHeight="150sp"
+                    android:maxWidth="150sp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/dinnerImgButton"
+                    android:src="@drawable/dinner"
+                    android:maxHeight="150sp"
+                    android:maxWidth="150sp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Snack"
+                    android:gravity="center"
+                    android:id="@+id/berenarStartApp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dinner"
+                    android:gravity="center"
+                    android:id="@+id/soparStartApp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </TableLayout>
+</ScrollView>

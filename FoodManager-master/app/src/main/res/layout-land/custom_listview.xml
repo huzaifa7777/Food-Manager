@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd54f"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="fill_vertical"
+    android:padding="3sp">
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:minWidth="120sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="2sp"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:clickable="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemFat"
+        android:layout_toEndOf="@+id/itemName"
+        android:layout_toRightOf="@+id/itemName"
+        android:minWidth="110sp"
+        android:layout_marginTop="5sp"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:clickable="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemCarbohydrates"
+        android:layout_toEndOf="@+id/itemFat"
+        android:gravity="center_vertical"
+        android:minWidth="120sp"
+        android:layout_marginTop="5sp"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:clickable="false"
+        android:layout_toRightOf="@+id/itemFat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemProtein"
+        android:layout_toEndOf="@+id/itemCarbohydrates"
+        android:gravity="center_vertical"
+        android:minWidth="100sp"
+        android:layout_marginTop="5sp"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:clickable="false"
+        android:layout_toRightOf="@+id/itemCarbohydrates" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemKCal"
+        android:layout_toEndOf="@+id/itemProtein"
+        android:gravity="center_vertical"
+        android:minWidth="50sp"
+        android:layout_marginTop="5sp"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:clickable="false"
+        android:layout_toRightOf="@+id/itemProtein" />
+
+    <ImageButton
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:scaleType="fitXY"
+        android:id="@+id/itemEditButton"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/edicio"
+        android:clickable="true"
+        android:background="@android:color/transparent"
+        android:layout_toLeftOf="@+id/itemDeleteButton"
+        android:layout_marginTop="3sp"
+        android:layout_marginRight="5sp"/>
+
+    <ImageButton
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:scaleType="fitXY"
+        android:id="@+id/itemDeleteButton"
+        android:clickable="true"
+        android:src="@drawable/eliminar"
+        android:background="@android:color/transparent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3sp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

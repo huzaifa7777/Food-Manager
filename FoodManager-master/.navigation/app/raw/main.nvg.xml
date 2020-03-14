@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.health.manager.app.llistaproductes"/>
+      <point      
+        x = "1078"      
+        y = "906"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.health.manager.app.llistaproductes"/>
+      <point      
+        x = "2972"      
+        y = "-1232"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.health.manager.app.App"/>
+      <point      
+        x = "88"      
+        y = "896"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.health.manager.app.App"/>
+      <point      
+        x = "2960"      
+        y = "796"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.health.manager.app.PortionActivity"/>
+      <point      
+        x = "3104"      
+        y = "1956"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.health.manager.app.FoodInfoActivity"/>
+      <point      
+        x = "2048"      
+        y = "1952"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.health.manager.app.nou"/>
+      <point      
+        x = "2048"      
+        y = "532"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.health.manager.app.nou"/>
+      <point      
+        x = "2844"      
+        y = "3048"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

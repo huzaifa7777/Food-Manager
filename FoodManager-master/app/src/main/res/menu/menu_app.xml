@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".App">
+    <item android:id="@+id/newProduct"
+        android:title="Add Product"
+        android:icon="@drawable/ic_folder"
+        android:orderInCategory="150"/>
+</menu>

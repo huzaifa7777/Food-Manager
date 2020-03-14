@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Breakfast"
+            android:id="@+id/esmorzo"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meal"
+                android:id="@+id/aliment"
+                android:textSize="15sp"
+                android:minWidth="100sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fat"
+                android:id="@+id/fatness"
+                android:textSize="15sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:minWidth="100sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="carbohydrates"
+                android:id="@+id/carboness"
+                android:textSize="15sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:minWidth="125sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="protein"
+                android:id="@+id/proteinness"
+                android:textSize="15sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:minWidth="110sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="calories"
+                android:id="@+id/calories"
+                android:textSize="15sp"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="24sp"
+                android:minWidth="50sp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffd54f"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/conjuntbreakfast" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="15sp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/Breakfastfab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_folder"
+            android:layout_gravity="bottom|end" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

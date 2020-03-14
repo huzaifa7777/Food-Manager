@@ -1,0 +1,234 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    tools:context=".FoodInfoActivity">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:id="@+id/table">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name_food_infoMeal"
+            android:id="@+id/infoName"
+            android:textSize="20sp"
+            android:layout_margin="10sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="infoMeal portion"
+                android:id="@+id/textView15"
+                android:layout_gravity="left|center_horizontal"
+                android:textSize="15sp"
+                android:layout_marginLeft="15sp" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/infoPortion"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:background="#ffd54f"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="brand"
+                android:id="@+id/textView34"
+                android:textSize="15sp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/infoBrand"
+                android:gravity="right|center_vertical"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutritional_info"
+            android:id="@+id/textView17"
+            android:textSize="20sp"
+            android:layout_margin="15dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="calories"
+                android:id="@+id/textView18"
+                android:textSize="15sp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/infoKcal"
+                android:gravity="right|center_vertical"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="carbohydrates"
+                android:id="@+id/textView20"
+                android:layout_marginLeft="15dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/infoCarbo"
+                android:gravity="right|center_vertical"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="proteins"
+                android:id="@+id/textView22"
+                android:layout_gravity="left"
+                android:textSize="15sp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/infoProtein"
+                android:gravity="right|center_vertical"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="fat"
+                android:id="@+id/textView24"
+                android:layout_marginLeft="15dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/infoFat"
+                android:gravity="right|center_vertical"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="bottom">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:clickable="true"
+                android:text="Cancel"
+                android:textColor="#ff6f00"
+                android:id="@+id/infoCancel"
+                android:layout_gravity="left|bottom"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Adding"
+                android:clickable="true"
+                android:textColor="#ff6f00"
+                android:id="@+id/infoSave"
+                android:layout_gravity="bottom|right"
+                style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+    </TableLayout>
+</ScrollView>
